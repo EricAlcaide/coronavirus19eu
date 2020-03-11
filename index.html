@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="author" content="Eric Alcaide">
+	<meta name="description" content="Open Data regarding the Corinavirus-19 epidemic in the EU">
+	<meta name="robots" content="index, follow">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="icon" href="web/favicon.png" type="image/png">
+	<link rel="apple-touch-icon" href="imgs/favicon.png">
+	<link href="web/github.css" rel="stylesheet" type="text/css">
+	<!-- My own stuff -->
+	<link href="web/main.css" rel="stylesheet" type="text/css">
+	<script src="web/utils.js" type="text/javascript"></script>
+
+	<title>Coronavirus19EU</title>
+</head>
+<body>
+	<!-- Landing-->
+	<div id="main" class="" style="">
+		<center><h1 class="title">Coronavirus Evolution in the EU</h1></center>
+
+		<p>In this page you'll find accurate data regarding the 2020 Coronavirus epidemic in the EU.</p>
+
+		<p class="bold">Download the data in various formats:
+			<ul>
+				<li>CSV file: <a href="data/cases.csv" download>data.csv</a></li>
+				<li>SQL table: <a href="data/dump.sql" download>dump.sql</a></li>
+			</ul> 
+		</p>
+
+		<p>Wanna contribute to the project? Read the <a href="README.md#Collaborate">contribution guidelines</a></p>
+	</div>
+	<!-- dashboard -->
+	<div id="dashboard" class="centered">
+		<iframe src="http://coronavirus19eu.herokuapp.com/public/dashboard/b263d112-7e44-4467-9526-8664df56130c" allowtransparency id="dash_iframe" class="centered" style="height:80vh; width:90vw;"></iframe>
+	</div>
+	<!-- footer -->
+	<div id="footer" class="">
+		Made by <a href="https://ericalcaide.com" class="" target="_blank">Eric Alcaide</a>
+	</div>
+</body>
+</html>
+

@@ -15,7 +15,6 @@ Fields:
 * Growth wrt yesterday and past week
 * Measures taken in the zone
 * Expected for:
-	* next report
 	* next day
 	* next 2 days
 * Closest neighbour (country/region) by growth and population / measures
@@ -33,8 +32,8 @@ Fields:
 
 
 ## Report Generation
-Our aim is to produce at least 3 reports daily (1 every 8 hours) in an automated day. Some work to do includes: 
-* Deal with different reporting freciencies from countries
+Our aim is to produce reports daily in an automated day. Some work to do includes: 
+* Deal with different reporting frecuencies from countries
 * Integrate data from various sources
 * Forecasts when data is not available
 * Visualizations

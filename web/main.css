@@ -1,0 +1,60 @@
+/* Elements */
+html, body{
+	height:100%;
+	margin:0;
+	padding:0;
+}
+
+
+p{
+
+}
+
+a{
+
+}
+
+a:hover{
+
+}
+
+/* Main classes*/
+#main{
+	font-size:1.2em;
+	max-width:66rem;
+	padding-top:4rem;
+	margin-left: auto; 
+	margin-right: auto; 
+	margin-bottom:1rem;
+}
+
+#dashboard{
+	margin-bottom:2em;
+}
+
+#dash_iframe{
+	border: 0;
+	margin-left:5vw;
+	margin-right:5vw;
+}
+
+#footer{
+	font-size:1.3em;
+	text-align:center;
+	padding-bottom:2rem;
+}
+
+/* Classes */
+
+.full_width{
+	width:100%;
+}
+
+.centered{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.title{
+	margin-bottom:3rem;
+}

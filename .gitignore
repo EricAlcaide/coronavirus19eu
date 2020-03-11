@@ -1,1 +1,8 @@
 credentials.md
+
+# no notebooks
+data/.ipynb_checkpoints/*
+# unnecesary files
+data/xploration.ipynb
+data/update_db.bat
+data/xploration.py
